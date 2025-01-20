@@ -421,8 +421,8 @@ def main(args=None):
 
     # Path to root of CU-MULTI Dataset directory
     dataset_root_dir = '/media/donceykong/donceys_data_ssd/datasets/CU_MULTI/data'
-    environment = "kittredge_loop"
-    robot_num = "4"
+    environment = "main_campus"
+    robot_num = "2"
     out_dir = "/media/donceykong/doncey_ssd_02/lidar2osm_bags"
 
     ROS2BagCreator(dataset_root_dir, environment, robot_num, out_dir)
